@@ -1,0 +1,95 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+.image{
+    padding: 5%;
+    width:500px;
+    height: 700px;
+    position: relative;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    background-color: #ffffff;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2 {
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.a{
+    border: 1px solid #000;
+    margin: 2px;
+    width: 600px;
+    height: 500px
+}
+.b{
+    padding: 5%;
+}
+h3{
+    font-family:"Comic Sans MS",cursive,sans-serif;
+    font-style: normal;
+    color: #007bff;
+}
+h5{
+    color: #007bff;
+    font-style: normal;
+    font-family:"Comic Sans MS",cursive,sans-serif;
+}
+.end{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 2px;
+    width : 600px;
+    height: 70px;
+}
+h4{
+    font-style: normal;
+    font: oblique;
+}

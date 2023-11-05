@@ -1,0 +1,46 @@
+<web-app>   
+    <!-- Program p1.java -->
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>p1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+    
+
+    <!-- Program p2.java -->
+    <servlet>
+        <servlet-name>HelloForm</servlet-name>
+        <servlet-class>p2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloForm</servlet-name>
+        <url-pattern>/HelloForm</url-pattern>
+    </servlet-mapping>
+
+    <!-- Program p3.java -->
+    <servlet>
+        <servlet-name>postprog</servlet-name>
+        <servlet-class>p3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>postprog</servlet-name>
+        <url-pattern>/pgm3</url-pattern>
+    </servlet-mapping>
+
+    <!-- Program p4.java -->
+    <servlet>
+        <servlet-name>checklistpgm</servlet-name>
+        <servlet-class>p4</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>checklistpgm</servlet-name>
+        <url-pattern>/pgm4</url-pattern>
+    </servlet-mapping>
+</web-app>
